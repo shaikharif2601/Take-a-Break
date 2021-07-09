@@ -15,6 +15,6 @@ if __name__ == '__main__':
     try:
         while True:
             Notifyme("Hey User", "Take A break For 20 Seconds")
-            time.sleep(5)
+            time.sleep(1200)
     except Exception as ex:
         print(ex)
